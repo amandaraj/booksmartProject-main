@@ -14,6 +14,10 @@
 		3768193826A75350003CA1D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3768193726A75350003CA1D6 /* Assets.xcassets */; };
 		3768193B26A75350003CA1D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3768193926A75350003CA1D6 /* LaunchScreen.storyboard */; };
 		3768194326A760A3003CA1D6 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768194226A760A3003CA1D6 /* homePage.swift */; };
+		A364DF0426A87DC700B3DD77 /* Lustria-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A364DF0326A87DC700B3DD77 /* Lustria-Regular.ttf */; };
+		A364DF0726A8814800B3DD77 /* Bentham-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A364DF0626A8814800B3DD77 /* Bentham-Regular.ttf */; };
+		A364DF0A26A8815500B3DD77 /* LoversQuarrel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A364DF0926A8815500B3DD77 /* LoversQuarrel-Regular.ttf */; };
+		A364DF0D26A8817000B3DD77 /* Archivo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A364DF0C26A8817000B3DD77 /* Archivo-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		3768193A26A75350003CA1D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3768193C26A75350003CA1D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3768194226A760A3003CA1D6 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
+		A364DF0326A87DC700B3DD77 /* Lustria-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lustria-Regular.ttf"; path = "../../../Downloads/Lustria/Lustria-Regular.ttf"; sourceTree = "<group>"; };
+		A364DF0626A8814800B3DD77 /* Bentham-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bentham-Regular.ttf"; path = "../../../Downloads/Bentham/Bentham-Regular.ttf"; sourceTree = "<group>"; };
+		A364DF0926A8815500B3DD77 /* LoversQuarrel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LoversQuarrel-Regular.ttf"; path = "../../../Downloads/Lovers_Quarrel/LoversQuarrel-Regular.ttf"; sourceTree = "<group>"; };
+		A364DF0C26A8817000B3DD77 /* Archivo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Archivo-Medium.ttf"; path = "../../../Downloads/Archivo/static/Archivo/Archivo-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				3768193926A75350003CA1D6 /* LaunchScreen.storyboard */,
 				3768193C26A75350003CA1D6 /* Info.plist */,
 				3768193426A7534A003CA1D6 /* booksmartProject.xcdatamodeld */,
+				A364DF0626A8814800B3DD77 /* Bentham-Regular.ttf */,
+				A364DF0326A87DC700B3DD77 /* Lustria-Regular.ttf */,
+				A364DF0926A8815500B3DD77 /* LoversQuarrel-Regular.ttf */,
+				A364DF0C26A8817000B3DD77 /* Archivo-Medium.ttf */,
 			);
 			path = booksmartProject;
 			sourceTree = "<group>";
@@ -128,7 +140,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3768193B26A75350003CA1D6 /* LaunchScreen.storyboard in Resources */,
+				A364DF0726A8814800B3DD77 /* Bentham-Regular.ttf in Resources */,
 				3768193826A75350003CA1D6 /* Assets.xcassets in Resources */,
+				A364DF0D26A8817000B3DD77 /* Archivo-Medium.ttf in Resources */,
+				A364DF0A26A8815500B3DD77 /* LoversQuarrel-Regular.ttf in Resources */,
+				A364DF0426A87DC700B3DD77 /* Lustria-Regular.ttf in Resources */,
 				3768193326A7534A003CA1D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
