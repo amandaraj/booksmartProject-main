@@ -13,7 +13,17 @@
 		3768193626A7534A003CA1D6 /* booksmartProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3768193426A7534A003CA1D6 /* booksmartProject.xcdatamodeld */; };
 		3768193826A75350003CA1D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3768193726A75350003CA1D6 /* Assets.xcassets */; };
 		3768193B26A75350003CA1D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3768193926A75350003CA1D6 /* LaunchScreen.storyboard */; };
-		3768194326A760A3003CA1D6 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768194226A760A3003CA1D6 /* homePage.swift */; };
+		3768194526A9A8A3003CA1D6 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768194426A9A8A3003CA1D6 /* homePage.swift */; };
+		3768194726A9A8C4003CA1D6 /* K-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768194626A9A8C4003CA1D6 /* K-1.swift */; };
+		3768194926A9A8D7003CA1D6 /* 2-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768194826A9A8D7003CA1D6 /* 2-3.swift */; };
+		3768194B26A9A8ED003CA1D6 /* 4-5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768194A26A9A8ED003CA1D6 /* 4-5.swift */; };
+		3768194D26A9A928003CA1D6 /* allLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768194C26A9A928003CA1D6 /* allLinks.swift */; };
+		3768194F26A9A93A003CA1D6 /* allBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768194E26A9A93A003CA1D6 /* allBooks.swift */; };
+		3768195126A9A94B003CA1D6 /* allVideos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768195026A9A94B003CA1D6 /* allVideos.swift */; };
+		3768195326A9A980003CA1D6 /* aboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768195226A9A980003CA1D6 /* aboutUs.swift */; };
+		3768195526A9A991003CA1D6 /* howToUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768195426A9A991003CA1D6 /* howToUse.swift */; };
+		3768195726A9A9A4003CA1D6 /* contactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768195626A9A9A4003CA1D6 /* contactUs.swift */; };
+		3768195926A9A9E0003CA1D6 /* findABook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768195826A9A9E0003CA1D6 /* findABook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +35,17 @@
 		3768193726A75350003CA1D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3768193A26A75350003CA1D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3768193C26A75350003CA1D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3768194226A760A3003CA1D6 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
+		3768194426A9A8A3003CA1D6 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
+		3768194626A9A8C4003CA1D6 /* K-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "K-1.swift"; sourceTree = "<group>"; };
+		3768194826A9A8D7003CA1D6 /* 2-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-3.swift"; sourceTree = "<group>"; };
+		3768194A26A9A8ED003CA1D6 /* 4-5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-5.swift"; sourceTree = "<group>"; };
+		3768194C26A9A928003CA1D6 /* allLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allLinks.swift; sourceTree = "<group>"; };
+		3768194E26A9A93A003CA1D6 /* allBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allBooks.swift; sourceTree = "<group>"; };
+		3768195026A9A94B003CA1D6 /* allVideos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allVideos.swift; sourceTree = "<group>"; };
+		3768195226A9A980003CA1D6 /* aboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUs.swift; sourceTree = "<group>"; };
+		3768195426A9A991003CA1D6 /* howToUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howToUse.swift; sourceTree = "<group>"; };
+		3768195626A9A9A4003CA1D6 /* contactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactUs.swift; sourceTree = "<group>"; };
+		3768195826A9A9E0003CA1D6 /* findABook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findABook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +80,18 @@
 			children = (
 				3768192B26A7534A003CA1D6 /* AppDelegate.swift */,
 				3768192D26A7534A003CA1D6 /* SceneDelegate.swift */,
-				3768194226A760A3003CA1D6 /* homePage.swift */,
 				3768193126A7534A003CA1D6 /* Main.storyboard */,
+				3768195826A9A9E0003CA1D6 /* findABook.swift */,
+				3768195226A9A980003CA1D6 /* aboutUs.swift */,
+				3768195426A9A991003CA1D6 /* howToUse.swift */,
+				3768195626A9A9A4003CA1D6 /* contactUs.swift */,
+				3768194C26A9A928003CA1D6 /* allLinks.swift */,
+				3768194E26A9A93A003CA1D6 /* allBooks.swift */,
+				3768195026A9A94B003CA1D6 /* allVideos.swift */,
+				3768194626A9A8C4003CA1D6 /* K-1.swift */,
+				3768194826A9A8D7003CA1D6 /* 2-3.swift */,
+				3768194A26A9A8ED003CA1D6 /* 4-5.swift */,
+				3768194426A9A8A3003CA1D6 /* homePage.swift */,
 				3768193726A75350003CA1D6 /* Assets.xcassets */,
 				3768193926A75350003CA1D6 /* LaunchScreen.storyboard */,
 				3768193C26A75350003CA1D6 /* Info.plist */,
@@ -140,10 +170,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3768194326A760A3003CA1D6 /* homePage.swift in Sources */,
+				3768195326A9A980003CA1D6 /* aboutUs.swift in Sources */,
+				3768194B26A9A8ED003CA1D6 /* 4-5.swift in Sources */,
+				3768195126A9A94B003CA1D6 /* allVideos.swift in Sources */,
+				3768195926A9A9E0003CA1D6 /* findABook.swift in Sources */,
+				3768195526A9A991003CA1D6 /* howToUse.swift in Sources */,
+				3768194F26A9A93A003CA1D6 /* allBooks.swift in Sources */,
 				3768192C26A7534A003CA1D6 /* AppDelegate.swift in Sources */,
 				3768193626A7534A003CA1D6 /* booksmartProject.xcdatamodeld in Sources */,
+				3768194D26A9A928003CA1D6 /* allLinks.swift in Sources */,
+				3768195726A9A9A4003CA1D6 /* contactUs.swift in Sources */,
 				3768192E26A7534A003CA1D6 /* SceneDelegate.swift in Sources */,
+				3768194726A9A8C4003CA1D6 /* K-1.swift in Sources */,
+				3768194926A9A8D7003CA1D6 /* 2-3.swift in Sources */,
+				3768194526A9A8A3003CA1D6 /* homePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

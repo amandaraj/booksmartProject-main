@@ -1,5 +1,5 @@
 //
-//  homePage.swift
+//  K-1.swift
 //  booksmartProject
 //
 //  Created by Amanda on 7/22/21.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class homePage: UIViewController {
+class K_1: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        // Comment so I can commit
     }
     
 
