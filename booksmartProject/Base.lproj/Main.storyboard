@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CNt-Ml-kGU">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -948,6 +948,9 @@
                                                 <state key="normal" title="Button" image="2867922_menu_icon">
                                                     <color key="titleShadowColor" systemColor="linkColor"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="13I-Al-hAE" kind="show" id="S6h-bx-okQ"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Videos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLs-Lb-kvI">
                                                 <rect key="frame" x="145" y="45" width="120" height="33"/>
@@ -1577,7 +1580,7 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IeK-Hi-KXq">
                                 <rect key="frame" x="49" y="171" width="324" height="411"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">booksmart is an Apple device iOS app that primarily targets library computers. Our mission at booksmart is to share educational resources with young readers by making free resources more widely accessible. By working through communities, we hope to foster creativity, passion, and a love of learning in the leaders of the future. By sharing stories, stimulating entertainment, and educational platforms, we aim to give kids of all backgrounds enthusiasm about what they read and learn and excitement about the possibilities of their futures.</mutableString>
+                                <string key="text">booksmart is an Apple device iOS app that primarily targets library computers. Our mission at booksmart is to share educational resources with young readers by making free resources more widely accessible. By working through communities, we hope to foster creativity, passion, and a love of learning in the leaders of the future. By sharing stories, stimulating entertainment, and educational platforms, we aim to give kids of all backgrounds enthusiasm about what they read and learn and excitement about the possibilities of their futures.</string>
                                 <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="21"/>
                                 <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -1769,7 +1772,7 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xTp-9d-wfw"/>
+        <segue reference="S6h-bx-okQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2-3_aliceinwonderland" width="1045" height="1500"/>
