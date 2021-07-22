@@ -39,6 +39,69 @@ class K_1: UIViewController {
               UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
     }
+    
+    
+    @IBAction func kindergartenLangArts(_ sender: Any) {
+        if let url = URL(string: "https://www.ixl.com/ela/kindergarten") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+
+    }
+    
+    
+    @IBAction func kindergartenMath(_ sender: Any) {
+        if let url = URL(string: "https://www.ixl.com/math/kindergarten") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+
+    }
+    
+    
+    @IBAction func funbrainKindergarten(_ sender: Any) {
+        if let url = URL(string: "https://www.funbrain.com/pre-k-and-k-playground") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+
+    }
+    
+    
+    @IBAction func abcyaKindergarten(_ sender: Any) {
+        if let url = URL(string: "https://www.abcya.com/grades/k") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+
+    }
+    
+    
+    @IBAction func stLangArts(_ sender: Any) {
+        if let url = URL(string: "https://www.ixl.com/ela/grade-1") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+
+    }
+    
+    @IBAction func stMath(_ sender: Any) {
+        if let url = URL(string: "https://www.ixl.com/math/grade-1") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+
+    }
+    
+    
+    @IBAction func funbrainFirst(_ sender: Any) {
+        if let url = URL(string: "https://www.funbrain.com/grade/1") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+
+    }
+    
+    
+    @IBAction func abcyaFirst(_ sender: Any) {
+        if let url = URL(string: "https://www.abcya.com/grades/1") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
