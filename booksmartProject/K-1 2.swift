@@ -15,29 +15,14 @@ class K_1: UIViewController {
         }
     }
     @IBAction func peterrabbit(_ sender: Any) {
-        if let url = URL(string: "https://www.youtube.com/watch?v=p_LeUSA-qIg") {
-              UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        }
     }
     @IBAction func sylvestermagicpebble(_ sender: Any) {
-        if let url = URL(string: "https://www.youtube.com/watch?v=BNGUnk8JeLE") {
-              UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        }
     }
     @IBAction func theemptypot(_ sender: Any) {
-        if let url = URL(string: "https://www.youtube.com/watch?v=a9K-sAKdk2Y") {
-              UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        }
     }
     @IBAction func hanukkahinalaska(_ sender: Any) {
-        if let url = URL(string: "https://www.youtube.com/watch?v=0Brmv6DHSdc") {
-              UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        }
     }
     @IBAction func clarktheshark(_ sender: Any) {
-        if let url = URL(string: "https://www.youtube.com/watch?v=lgZRMptA0Lk") {
-              UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
