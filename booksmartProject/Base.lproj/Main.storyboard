@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CNt-Ml-kGU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CNt-Ml-kGU">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -133,13 +133,6 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.97647058819999999" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="K-1 Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFi-OC-CrG">
-                                                <rect key="frame" x="126" y="49" width="171" height="33"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
-                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_____" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvI-bS-bUl">
                                                 <rect key="frame" x="187" y="71" width="73" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -369,6 +362,13 @@
                                                     <action selector="wildthings:" destination="gXv-hH-gw3" eventType="touchUpInside" id="jnS-aS-zsW"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="K-1 Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFi-OC-CrG">
+                                                <rect key="frame" x="128" y="39" width="159" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -443,11 +443,11 @@
             <objects>
                 <viewController id="4hP-KP-oH7" userLabel="Other Resources" customClass="otherResources" customModule="booksmartProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0e0-gx-AOF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qga-VH-xyW">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8dP-Uv-cJ4" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
@@ -457,13 +457,6 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.97647058819999999" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfh-Tj-Eda">
-                                                <rect key="frame" x="172" y="49" width="71" height="33"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
-                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k88-Ax-6X1">
                                                 <rect key="frame" x="73" y="181" width="0.0" height="0.0"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -627,6 +620,13 @@
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfh-Tj-Eda">
+                                                <rect key="frame" x="174" y="39" width="67" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -690,11 +690,11 @@
             <objects>
                 <viewController id="pqs-ur-NU2" customClass="__5" customModule="booksmartProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eAk-n7-Hz4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jkh-fV-Bxw">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BM7-3l-itD" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1950"/>
@@ -704,13 +704,6 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.97647058819999999" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4-5 Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vf0-e5-BNe">
-                                                <rect key="frame" x="126" y="49" width="164" height="33"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
-                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4U-BC-p7o">
                                                 <rect key="frame" x="189" y="69" width="54" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -939,6 +932,13 @@
                                                     <action selector="treasureisland:" destination="pqs-ur-NU2" eventType="touchUpInside" id="zpQ-bV-Urv"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4-5 Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vf0-e5-BNe">
+                                                <rect key="frame" x="132" y="39" width="151" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -1004,11 +1004,11 @@
             <objects>
                 <viewController id="bcX-LS-R44" customClass="__3" customModule="booksmartProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8sF-Nd-MQD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wrM-Wa-TgK">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPP-LU-ewD" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1950"/>
@@ -1018,13 +1018,6 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="0.97647058819999999" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2-3 Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysy-r1-ypl">
-                                                <rect key="frame" x="126" y="49" width="164" height="33"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
-                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74Z-JW-GYF">
                                                 <rect key="frame" x="187" y="66" width="54" height="33"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1253,6 +1246,13 @@
                                                     <action selector="theCaseOfTheMissingCarrotCake:" destination="bcX-LS-R44" eventType="touchUpInside" id="h1W-Xe-fQF"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2-3 Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysy-r1-ypl">
+                                                <rect key="frame" x="132" y="39" width="151" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -1360,13 +1360,6 @@
                                                 <color key="textColor" red="0.14901960780000001" green="0.3294117647" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Links" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgR-68-ZWx">
-                                                <rect key="frame" x="151" y="45" width="108" height="33"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
-                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="combine links on all grade levels + links in other resources page" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X1z-Wd-sum">
                                                 <rect key="frame" x="87" y="217" width="240" height="192"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1375,6 +1368,13 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Links" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgR-68-ZWx">
+                                                <rect key="frame" x="156" y="39" width="97" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -1471,13 +1471,6 @@
                                                     <segue destination="13I-Al-hAE" kind="show" id="S6h-bx-okQ"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Audiobooks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLs-Lb-kvI">
-                                                <rect key="frame" x="107" y="47" width="200" height="33"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
-                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOW-Af-xzS">
                                                 <rect key="frame" x="209" y="155" width="176" height="184"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1659,6 +1652,13 @@
                                                     <action selector="giveamouseacookie:" destination="gXv-hH-gw3" eventType="touchUpInside" id="FW6-Ns-4G0"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Audiobooks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLs-Lb-kvI">
+                                                <rect key="frame" x="104" y="38" width="200" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -1726,7 +1726,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jhy-J6-EHf" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="-2" width="414" height="1325"/>
+                                        <rect key="frame" x="0.0" y="-179" width="414" height="1325"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="booksmart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgD-Th-y40">
                                                 <rect key="frame" x="82" y="106" width="278" height="65"/>
@@ -1777,10 +1777,6 @@
                                                 <rect key="frame" x="74" y="795" width="271" height="164"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.32.17 AM" translatesAutoresizingMaskIntoConstraints="NO" id="sSA-7Y-ldI">
-                                                <rect key="frame" x="46" y="1048" width="327" height="168"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiP-1d-OL5">
                                                 <rect key="frame" x="201" y="82" width="213" height="41"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1792,48 +1788,12 @@
                                                 <rect key="frame" x="101" y="457" width="212" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.14901960780000001" green="0.3294117647" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
                                                 <state key="normal" title="K-1 Resources">
                                                     <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="gXv-hH-gw3" kind="show" id="Ynh-RK-eNj"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mu0-HT-wUn">
-                                                <rect key="frame" x="105" y="714" width="212" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.14901960780000001" green="0.3294117647" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                <state key="normal" title="2-3 Resources">
-                                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="bcX-LS-R44" kind="show" id="Ck8-cc-gho"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lnr-GZ-ocz">
-                                                <rect key="frame" x="102" y="969" width="212" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.14901960780000001" green="0.3294117647" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                <state key="normal" title="4-5 Resources">
-                                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="pqs-ur-NU2" kind="show" id="NMb-C8-8uO"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rue-r4-Qlw">
-                                                <rect key="frame" x="102" y="1226" width="212" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.14901960780000001" green="0.3294117647" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                <state key="normal" title="Other Resources">
-                                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="4hP-KP-oH7" kind="show" id="xaR-YP-02R"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_____" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGU-mc-EHg">
@@ -1843,6 +1803,37 @@
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4l7-qG-OBA">
+                                                <rect key="frame" x="105" y="712" width="212" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.14901960780000001" green="0.3294117647" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                                <state key="normal" title="2-3 Resources">
+                                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70J-Z4-qyn">
+                                                <rect key="frame" x="101" y="967" width="212" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.14901960780000001" green="0.3294117647" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                                <state key="normal" title="4-5 Resources">
+                                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                                </state>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.32.17 AM" translatesAutoresizingMaskIntoConstraints="NO" id="sSA-7Y-ldI">
+                                                <rect key="frame" x="44" y="1041" width="327" height="168"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jH-la-pKu">
+                                                <rect key="frame" x="105" y="1217" width="212" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.14901960780000001" green="0.3294117647" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                                <state key="normal" title="Other Resources">
+                                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                                </state>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -2084,7 +2075,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJ8-5S-lC2">
-                                <rect key="frame" x="11" y="156" width="185" height="43"/>
+                                <rect key="frame" x="59" y="155" width="73" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
                                 <state key="normal" title="Home">
@@ -2095,10 +2086,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17n-Lh-IqG">
-                                <rect key="frame" x="59" y="206" width="261" height="43"/>
+                                <rect key="frame" x="21" y="206" width="251" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
-                                <state key="normal" title="Audiobook Collection">
+                                <state key="normal" title="All Audiobooks">
                                     <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -2106,10 +2097,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wM5-Zx-GV1">
-                                <rect key="frame" x="64" y="257" width="185" height="43"/>
+                                <rect key="frame" x="20" y="257" width="185" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
-                                <state key="normal" title="Link Collection">
+                                <state key="normal" title="All Links">
                                     <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -2117,7 +2108,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdY-5E-oXZ">
-                                <rect key="frame" x="32" y="359" width="179" height="43"/>
+                                <rect key="frame" x="63" y="410" width="110" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
                                 <state key="normal" title="About Us">
@@ -2128,7 +2119,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFo-uF-6Y2">
-                                <rect key="frame" x="71" y="410" width="241" height="43"/>
+                                <rect key="frame" x="63" y="359" width="241" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
                                 <state key="normal" title="How to Use Our Page">
@@ -2138,8 +2129,19 @@
                                     <segue destination="ex5-AI-aud" kind="show" id="vU7-o0-X7W"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcR-0I-sLH">
+                                <rect key="frame" x="63" y="308" width="103" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                <state key="normal" title="All Books">
+                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FGi-GK-l0w" kind="show" id="kfA-5N-URI"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evA-b0-oer">
-                                <rect key="frame" x="42" y="457" width="185" height="43"/>
+                                <rect key="frame" x="59" y="461" width="135" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
                                 <state key="normal" title="Contact Us">
@@ -2147,17 +2149,6 @@
                                 </state>
                                 <connections>
                                     <segue destination="VS6-ms-DlX" kind="show" id="cPK-yv-UFa"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcR-0I-sLH">
-                                <rect key="frame" x="74" y="308" width="175" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
-                                <state key="normal" title="Book Collection">
-                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="FGi-GK-l0w" kind="show" id="kfA-5N-URI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2193,20 +2184,13 @@
                                     <segue destination="13I-Al-hAE" kind="show" id="jRR-gh-BbY"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to Use Our Page" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eF6-hD-Mqf">
-                                <rect key="frame" x="88" y="-13" width="239" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
-                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Con-cf-ibk">
                                 <rect key="frame" x="36" y="174" width="342" height="489"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The resources provided on the booksmart app are organized by the learner’s grade level and by type of resource. Our home page features resources for Kindergarten through 5th grade (divided by level) and a page for other resources. Each set of grade levels includes embedded book and video resources, as well as other links. Parents, guardians, and teachers can read about our mission on the “About Us” page of our app.
+                                <mutableString key="text">The resources provided on the booksmart app are organized by the learner’s grade level and by type of resource. Our home page features resources for Kindergarten through 5th grade (divided by level) and a page for other resources. Each set of grade levels includes embedded audiobook resources, embedded books, and links to other educational resources. Our "Other Resources" page includes embedded books for ASL learners and links to an assortment of educational platforms. Our app also includes separate pages where users can find our complete collections of audiobooks, books, and educational links in one place. Parents, guardians, and teachers can read about our mission on the “About Us” page of the booksmart app.
 
 If a booksmart learner or a parent, guardian, or teacher would like to reach out to booksmart, our email address, phone number, and social media tags may be found on the “Contact Us” page.
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="21"/>
                                 <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -2216,6 +2200,13 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Lustria-Regular" family="Lustria" pointSize="20"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to Use Our Page" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eF6-hD-Mqf">
+                                <rect key="frame" x="88" y="-13" width="239" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -2251,13 +2242,6 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
                                     <segue destination="13I-Al-hAE" kind="show" id="fO5-j0-UQx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GW6-b1-3b0">
-                                <rect key="frame" x="52" y="-18" width="310" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
-                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qoP-rw-EBc">
                                 <rect key="frame" x="180" y="70" width="54" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2266,10 +2250,17 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IeK-Hi-KXq">
-                                <rect key="frame" x="49" y="171" width="324" height="411"/>
+                                <rect key="frame" x="45" y="137" width="324" height="585"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">booksmart is an Apple device iOS app that primarily targets library computers. Our mission at booksmart is to share educational resources with young readers by making free resources more widely accessible. By working through communities, we hope to foster creativity, passion, and a love of learning in the leaders of the future. By sharing stories, stimulating entertainment, and educational platforms, we aim to give kids of all backgrounds enthusiasm about what they read and learn and excitement about the possibilities of their futures.</string>
+                                <mutableString key="text">booksmart is an Apple device iOS app that aims to provide creative, educational platforsm to those who may not be able to afford costly resources. Our mission at booksmart is to share these resources with young learners in order to make imaginative education more widely accessible. We hope to foster creativity, passion, and a love of learning in the leaders of the future and we believe no young person should be restricted from these opportunities as a result of their socio-economic background. By sharing stories, stimulating entertainment, and educational tools, we aim to give kids of all backgrounds an enthusiasm for what they read and learn and an excitement for the possibilities of their futures.</mutableString>
                                 <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="21"/>
+                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GW6-b1-3b0">
+                                <rect key="frame" x="52" y="-19" width="310" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
                                 <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2306,13 +2297,6 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
                                     <segue destination="13I-Al-hAE" kind="show" id="jAu-2D-Tp3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contact Us!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45g-DB-6bj">
-                                <rect key="frame" x="52" y="-17" width="310" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
-                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UC4-ZJ-EFT">
                                 <rect key="frame" x="180" y="70" width="54" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2333,6 +2317,13 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
                                 <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contact Us!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45g-DB-6bj">
+                                <rect key="frame" x="52" y="-18" width="310" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6y1-w1-sWj"/>
                         <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -2385,13 +2376,6 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
                                                     <segue destination="13I-Al-hAE" kind="show" id="bia-pg-Cjg"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Books" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5a-L3-f15">
-                                                <rect key="frame" x="148" y="45" width="115" height="33"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
-                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVt-CQ-JZV">
                                                 <rect key="frame" x="203" y="161" width="176" height="190"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2554,6 +2538,13 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
                                                     <action selector="treasureisland:" destination="pqs-ur-NU2" eventType="touchUpInside" id="hkp-ax-5eR"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Books" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5a-L3-f15">
+                                                <rect key="frame" x="153" y="39" width="103" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="27"/>
+                                                <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -2616,8 +2607,9 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fCs-Wv-zTv"/>
-        <segue reference="W6t-Op-Snv"/>
+        <segue reference="cPK-yv-UFa"/>
+        <segue reference="jAu-2D-Tp3"/>
+        <segue reference="4l1-iv-IVF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2-3_aliceinwonderland" width="1045" height="1500"/>
