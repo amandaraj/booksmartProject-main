@@ -41,7 +41,7 @@ class __3: UIViewController {
     
     
     @IBAction func theCaseOfTheMissingCarrotCake(_ sender: Any) {
-        if let url = URL(string: "https://www.youtube.com/watch?v=bzw0pDLAf7k") {
+        if let url = URL(string: "https://www.youtube.com/watch?v=-UO-fLPG1kg") {
               UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
     }
@@ -101,6 +101,37 @@ class __3: UIViewController {
     }
     }
     
+   
+    @IBAction func aliceinwonderland(_ sender: Any) {
+        if let url = URL(string: "https://www.adobe.com/be_en/active-use/pdf/Alice_in_Wonderland.pdf") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    }
+    @IBAction func ramonaandbeezus(_ sender: Any) {
+        if let url = URL(string: "https://ebook-mecca.com/online/Beverly%20Cleary%20-%20Beezus%20and%20Ramona%20.PDF") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    }
+    @IBAction func popperspenguins(_ sender: Any) {
+        if let url = URL(string: "https://amitchelldpa.webs.com/Mr%20Poppers%20Penguins%20The%20Book.pdf") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    }
+    @IBAction func narnia(_ sender: Any) {
+        if let url = URL(string: "https://s3.amazonaws.com/scschoolfiles/112/thechroniclesofnarnia.pdf") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    }
+    @IBAction func boxcarchildren(_ sender: Any) {
+        if let url = URL(string: "https://www.gutenberg.org/files/42796/42796-h/42796-h.htm") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    }
+    @IBAction func littlehouseinwoods(_ sender: Any) {
+        if let url = URL(string: "https://www.gutenberg.ca/ebooks/wildersewell-woods/wildersewell-woods-01-h-dir/wildersewell-woods-01-h.html") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

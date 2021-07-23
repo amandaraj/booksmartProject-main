@@ -102,6 +102,36 @@ class K_1: UIViewController {
         }
 
     }
+    @IBAction func berensteinbears(_ sender: Any) {
+        if let url = URL(string: "https://urok.1sept.ru/articles/679123/Bears.pdf") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    @IBAction func flatstanley(_ sender: Any) {
+        if let url = URL(string: "http://class2ab.weebly.com/uploads/8/1/6/5/8165075/stanley.pdf") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    @IBAction func pingduck(_ sender: Any) {
+        if let url = URL(string: "https://www.arvindguptatoys.com/arvindgupta/ping.pdf") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    @IBAction func uglyduckling(_ sender: Any) {
+        if let url = URL(string: "https://elstonhall.org.uk/documents/home_learning/Nursery/ugly.pdf") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    @IBAction func wildthings(_ sender: Any) {
+        if let url = URL(string: "https://addi.ehu.es/bitstream/handle/10810/30027/JT_Where%20the%20Wild%20Things%20Are.pdf?sequence=2&isAllowed=y") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    @IBAction func mulberryst(_ sender: Any) {
+        if let url = URL(string: "http://showpdf.rahnuma.org/children/Stories/And_To_Think_That_I_Saw_It_On_Mulberry_Street.pdf") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

@@ -24,6 +24,7 @@
 		3768195526A9A991003CA1D6 /* howToUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768195426A9A991003CA1D6 /* howToUse.swift */; };
 		3768195726A9A9A4003CA1D6 /* contactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768195626A9A9A4003CA1D6 /* contactUs.swift */; };
 		3768195926A9A9E0003CA1D6 /* findABook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768195826A9A9E0003CA1D6 /* findABook.swift */; };
+		A35422F526AA1D8400ABC348 /* otherResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35422F426AA1D8400ABC348 /* otherResources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		3768195426A9A991003CA1D6 /* howToUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howToUse.swift; sourceTree = "<group>"; };
 		3768195626A9A9A4003CA1D6 /* contactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactUs.swift; sourceTree = "<group>"; };
 		3768195826A9A9E0003CA1D6 /* findABook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findABook.swift; sourceTree = "<group>"; };
+		A35422F426AA1D8400ABC348 /* otherResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherResources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				3768192B26A7534A003CA1D6 /* AppDelegate.swift */,
 				3768192D26A7534A003CA1D6 /* SceneDelegate.swift */,
 				3768193126A7534A003CA1D6 /* Main.storyboard */,
+				A35422F426AA1D8400ABC348 /* otherResources.swift */,
 				3768195826A9A9E0003CA1D6 /* findABook.swift */,
 				3768195226A9A980003CA1D6 /* aboutUs.swift */,
 				3768195426A9A991003CA1D6 /* howToUse.swift */,
@@ -179,6 +182,7 @@
 				3768192C26A7534A003CA1D6 /* AppDelegate.swift in Sources */,
 				3768193626A7534A003CA1D6 /* booksmartProject.xcdatamodeld in Sources */,
 				3768194D26A9A928003CA1D6 /* allLinks.swift in Sources */,
+				A35422F526AA1D8400ABC348 /* otherResources.swift in Sources */,
 				3768195726A9A9A4003CA1D6 /* contactUs.swift in Sources */,
 				3768192E26A7534A003CA1D6 /* SceneDelegate.swift in Sources */,
 				3768194726A9A8C4003CA1D6 /* K-1.swift in Sources */,
@@ -260,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -315,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
