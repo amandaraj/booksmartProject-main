@@ -122,11 +122,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qdy-LX-lam">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qdy-LX-lam">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WFq-W2-QZF" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1950"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WFq-W2-QZF" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="-195" width="414" height="1950"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 12.28.14 PM" translatesAutoresizingMaskIntoConstraints="NO" id="S7l-vZ-q0Z">
                                                 <rect key="frame" x="-21" y="0.0" width="451" height="131"/>
@@ -384,40 +384,40 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="0bX-iy-Pdd"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="4Iy-Tk-wan"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" id="4V1-SV-oZj"/>
-                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="5hE-aG-xkd"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" id="82h-O5-TtW"/>
-                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="AUL-zG-XFS"/>
-                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" id="B3Y-63-2vf"/>
-                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" id="EKU-Un-Kdx"/>
-                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" id="I3t-i4-db8"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" id="KU4-m2-hQy"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="LLj-TG-WFb"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="MbC-67-Fd0"/>
-                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="N3A-3n-WE1"/>
-                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" id="OdZ-PP-SWL"/>
-                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="POG-gV-ahk"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" id="R1e-kH-RZ7"/>
-                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" id="SGm-xb-qGZ"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" id="Xuk-kL-iJX"/>
-                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="Z7Q-XI-y6m"/>
-                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="Zrc-0p-k6A"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="ad6-Yx-nnF"/>
-                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" id="bKM-i3-0ej"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" id="bqt-37-LK3"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" id="evQ-4D-bp6"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" id="fam-8i-g7B"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="kBs-Ug-Pb9"/>
-                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" id="kUd-HZ-lhs"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" id="kxP-cv-ZRO"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="ote-sh-s40"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" id="tLb-M3-obS"/>
-                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="u3p-2S-1LQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="uMl-ac-aGK"/>
-                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="wAX-rb-jCe"/>
-                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" id="y7G-YM-ZCV"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="2Ej-r8-L7X"/>
+                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="6ex-xm-ofb"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="Avj-aA-b9u"/>
+                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="CCl-9n-FJl"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" constant="-195" id="GXh-cu-fLH"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" constant="-195" id="KbE-kP-4XQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" constant="-609" id="ODj-rA-5Me"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" constant="-195" id="PRK-h6-DyW"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" constant="-195" id="Q1b-lJ-SAv"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="S46-l0-NWa"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" constant="-195" id="TjW-DO-UZq"/>
+                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="W13-gF-d0L"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="WgT-69-zmr"/>
+                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" constant="-609" id="Ziu-t7-SwZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="a9O-le-BFw"/>
+                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" constant="-609" id="aET-4P-njs"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" constant="-195" id="asW-BI-RNp"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" constant="-195" id="dQt-oa-ZyQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" constant="-609" id="dlV-FR-X8c"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" constant="-195" id="g5A-v1-WOp"/>
+                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" constant="-609" id="gIa-qq-Vdg"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="heN-Ue-yse"/>
+                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" constant="-609" id="hzx-Dl-mNs"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="iyj-0t-OSD"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" constant="-195" id="ly0-aD-rQC"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="top" secondItem="Qdy-LX-lam" secondAttribute="top" constant="-195" id="m7b-2Z-gLQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="qbE-CL-uck"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="sLP-5Z-zBA"/>
+                                    <constraint firstItem="WFq-W2-QZF" firstAttribute="leading" secondItem="Qdy-LX-lam" secondAttribute="leading" id="swG-hG-rap"/>
+                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="tAg-uc-Q1M"/>
+                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" constant="-609" id="tbh-pB-KYg"/>
+                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="uRq-IJ-UvS"/>
+                                    <constraint firstAttribute="trailing" secondItem="WFq-W2-QZF" secondAttribute="trailing" id="xhG-Px-6Zq"/>
+                                    <constraint firstAttribute="bottom" secondItem="WFq-W2-QZF" secondAttribute="bottom" constant="-609" id="ygf-BJ-Hdn"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -428,7 +428,6 @@
                             <constraint firstItem="Qdy-LX-lam" firstAttribute="leading" secondItem="Pgj-4m-5L0" secondAttribute="leading" id="BJG-kj-gIO"/>
                             <constraint firstItem="Qdy-LX-lam" firstAttribute="trailing" secondItem="Pgj-4m-5L0" secondAttribute="trailing" id="CCy-q4-R5X"/>
                             <constraint firstAttribute="bottom" secondItem="Qdy-LX-lam" secondAttribute="bottom" id="WL2-GH-g7P"/>
-                            <constraint firstItem="WFq-W2-QZF" firstAttribute="width" secondItem="2qT-CT-Bb5" secondAttribute="width" id="qlE-Nk-4jZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KTg-l3-JbG"/>
@@ -834,7 +833,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMI-R7-lHX">
-                                                <rect key="frame" x="29" y="1049" width="206" height="35"/>
+                                                <rect key="frame" x="34" y="1049" width="206" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                                 <state key="normal" title="5th Grade Language Arts">
@@ -845,7 +844,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwQ-B8-Azr">
-                                                <rect key="frame" x="31" y="1093" width="132" height="35"/>
+                                                <rect key="frame" x="35" y="1092" width="132" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                                 <state key="normal" title="5th Grade Math">
@@ -856,7 +855,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BiU-x3-bg8">
-                                                <rect key="frame" x="31" y="1136" width="205" height="35"/>
+                                                <rect key="frame" x="35" y="1135" width="205" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                                 <state key="normal" title="Funbrain for 5th Graders">
@@ -864,17 +863,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="fifthfunbrain:" destination="pqs-ur-NU2" eventType="touchUpInside" id="jut-tT-elB"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBM-NH-3IJ">
-                                                <rect key="frame" x="31" y="1182" width="191" height="35"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
-                                                <state key="normal" title="ABCYa for 5th Graders">
-                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="fifthabcya:" destination="pqs-ur-NU2" eventType="touchUpInside" id="Ls2-BL-D03"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BOOKS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uob-XR-Spf">
@@ -939,6 +927,17 @@
                                                 <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBM-NH-3IJ">
+                                                <rect key="frame" x="35" y="1178" width="191" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="ABCYa for 5th Graders">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="fifthabcya:" destination="pqs-ur-NU2" eventType="touchUpInside" id="Ls2-BL-D03"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -1319,11 +1318,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uNb-DX-dhQ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uNb-DX-dhQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1508"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfr-bV-w7w" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1325"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfi-MP-DqE">
+                                        <rect key="frame" x="10" y="-169" width="192" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                        <state key="normal" title="ABCYa for 3rd Graders">
+                                            <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="abcyaThird:" destination="bcX-LS-R44" eventType="touchUpInside" id="Bay-U2-dlZ"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hfr-bV-w7w" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="-530" width="414" height="1677"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 12.28.14 PM" translatesAutoresizingMaskIntoConstraints="NO" id="vWp-96-nIv">
                                                 <rect key="frame" x="-21" y="0.0" width="451" height="131"/>
@@ -1360,14 +1370,17 @@
                                                 <color key="textColor" red="0.14901960780000001" green="0.3294117647" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="combine links on all grade levels + links in other resources page" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X1z-Wd-sum">
-                                                <rect key="frame" x="87" y="217" width="240" height="192"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paC-Ut-HEq">
+                                                <rect key="frame" x="28" y="215" width="232" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="Kindergarten Language Arts">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="kindergartenLangArts:" destination="gXv-hH-gw3" eventType="touchUpInside" id="cRq-C7-J1Z"/>
+                                                </connections>
+                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Links" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgR-68-ZWx">
                                                 <rect key="frame" x="156" y="39" width="97" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1375,6 +1388,237 @@
                                                 <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRh-Rx-gnq">
+                                                <rect key="frame" x="28" y="273" width="159" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="Kindergarten Math">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="kindergartenMath:" destination="gXv-hH-gw3" eventType="touchUpInside" id="Sxe-AJ-GJY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLl-aM-gRX">
+                                                <rect key="frame" x="28" y="329" width="240" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="Funbrain for Kindergarteners">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="funbrainKindergarten:" destination="gXv-hH-gw3" eventType="touchUpInside" id="vK2-dh-crN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSD-23-C2L">
+                                                <rect key="frame" x="29" y="454" width="202" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="1st Grade Language Arts">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="stLangArts:" destination="gXv-hH-gw3" eventType="touchUpInside" id="Afn-aE-c3E"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anc-9u-jTP">
+                                                <rect key="frame" x="28" y="516" width="128" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="1st Grade Math">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="stMath:" destination="gXv-hH-gw3" eventType="touchUpInside" id="0qw-2B-P7e"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPl-Dy-sz8">
+                                                <rect key="frame" x="28" y="574" width="201" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="Funbrain for 1st Graders">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="funbrainFirst:" destination="gXv-hH-gw3" eventType="touchUpInside" id="qqY-zG-PZi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXM-dK-hJS">
+                                                <rect key="frame" x="29" y="634" width="187" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="ABCYa for 1st Graders">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="abcyaFirst:" destination="gXv-hH-gw3" eventType="touchUpInside" id="gW3-E4-BQl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJ3-zE-R5H">
+                                                <rect key="frame" x="28" y="390" width="226" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="ABCYa for Kindergarteners">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="abcyaKindergarten:" destination="gXv-hH-gw3" eventType="touchUpInside" id="O10-2F-qC8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3e-3R-55g">
+                                                <rect key="frame" x="29" y="693" width="211" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="2nd Grade Language Arts">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="secondLangArts:" destination="bcX-LS-R44" eventType="touchUpInside" id="tSE-qH-NEa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4U-nW-dVa">
+                                                <rect key="frame" x="28" y="752" width="137" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="2nd Grade Math">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="secondMath:" destination="bcX-LS-R44" eventType="touchUpInside" id="iHO-lf-MVL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ys3-Ea-iyD">
+                                                <rect key="frame" x="28" y="810" width="209" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="Funbrain for 2nd Graders">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="funbrainSecond:" destination="bcX-LS-R44" eventType="touchUpInside" id="N8X-IL-uqT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRL-fN-KHU">
+                                                <rect key="frame" x="28" y="868" width="196" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="ABCYa for 2nd Graders">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="abcyaSecond:" destination="bcX-LS-R44" eventType="touchUpInside" id="PCS-uF-yhb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSu-Wf-jI3">
+                                                <rect key="frame" x="28" y="931" width="207" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="3rd Grade Language Arts">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="thirdLangArts:" destination="bcX-LS-R44" eventType="touchUpInside" id="BB9-wm-eKA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wiM-1P-PXY">
+                                                <rect key="frame" x="28" y="995" width="133" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="3rd Grade Math">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="thirdMath:" destination="bcX-LS-R44" eventType="touchUpInside" id="zlw-Ci-QhK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVv-Tm-IZc">
+                                                <rect key="frame" x="29" y="1058" width="206" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="Funbrain for 3rd Graders">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="funbrainThird:" destination="bcX-LS-R44" eventType="touchUpInside" id="ftK-AJ-JZe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57j-hK-IGu">
+                                                <rect key="frame" x="28" y="1119" width="192" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="ABCYa for 3rd Graders">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="abcyaThird:" destination="bcX-LS-R44" eventType="touchUpInside" id="SRN-h7-BfH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4X-4W-fTC">
+                                                <rect key="frame" x="29" y="1182" width="206" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="4th Grade Language Arts">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ELA:" destination="pqs-ur-NU2" eventType="touchUpInside" id="6bj-J3-RTo"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdA-6V-a9M">
+                                                <rect key="frame" x="28" y="1247" width="132" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="4th Grade Math">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="fourmath:" destination="pqs-ur-NU2" eventType="touchUpInside" id="ya0-rG-Q0N"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IlR-fJ-PBW">
+                                                <rect key="frame" x="29" y="1310" width="205" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="Funbrain for 4th Graders">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="fourfunbrain:" destination="pqs-ur-NU2" eventType="touchUpInside" id="r2L-ZP-wR3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3U-ot-oeX">
+                                                <rect key="frame" x="29" y="1375" width="191" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="ABCYa for 4th Graders">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="fourabcya:" destination="pqs-ur-NU2" eventType="touchUpInside" id="B2g-pc-s9X"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxt-tc-VFs">
+                                                <rect key="frame" x="29" y="1438" width="206" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="5th Grade Language Arts">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="fifthela:" destination="pqs-ur-NU2" eventType="touchUpInside" id="m9D-Az-X2J"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xap-Ef-OoF">
+                                                <rect key="frame" x="30" y="1497" width="132" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
+                                                <state key="normal" title="5th Grade Math">
+                                                    <color key="titleColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="fifthmath:" destination="pqs-ur-NU2" eventType="touchUpInside" id="luM-5x-KJm"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -1427,7 +1671,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="21d-HO-pek" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5286" y="901"/>
+            <point key="canvasLocation" x="5285.507246376812" y="900.66964285714278"/>
         </scene>
         <!--All Videos-->
         <scene sceneID="hiY-CY-OMs">
@@ -2187,10 +2431,10 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Con-cf-ibk">
                                 <rect key="frame" x="36" y="174" width="342" height="489"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">The resources provided on the booksmart app are organized by the learner’s grade level and by type of resource. Our home page features resources for Kindergarten through 5th grade (divided by level) and a page for other resources. Each set of grade levels includes embedded audiobook resources, embedded books, and links to other educational resources. Our "Other Resources" page includes embedded books for ASL learners and links to an assortment of educational platforms. Our app also includes separate pages where users can find our complete collections of audiobooks, books, and educational links in one place. Parents, guardians, and teachers can read about our mission on the “About Us” page of the booksmart app.
+                                <string key="text">The resources provided on the booksmart app are organized by the learner’s grade level and by type of resource. Our home page features resources for Kindergarten through 5th grade (divided by level) and a page for other resources. Each set of grade levels includes embedded audiobook resources, embedded books, and links to other educational resources. Our "Other Resources" page includes embedded books for ASL learners and links to an assortment of educational platforms. Our app also includes separate pages where users can find our complete collections of audiobooks, books, and educational links in one place. Parents, guardians, and teachers can read about our mission on the “About Us” page of the booksmart app.
 
 If a booksmart learner or a parent, guardian, or teacher would like to reach out to booksmart, our email address, phone number, and social media tags may be found on the “Contact Us” page.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="21"/>
                                 <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -2252,7 +2496,7 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IeK-Hi-KXq">
                                 <rect key="frame" x="45" y="137" width="324" height="585"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">booksmart is an Apple device iOS app that aims to provide creative, educational platforsm to those who may not be able to afford costly resources. Our mission at booksmart is to share these resources with young learners in order to make imaginative education more widely accessible. We hope to foster creativity, passion, and a love of learning in the leaders of the future and we believe no young person should be restricted from these opportunities as a result of their socio-economic background. By sharing stories, stimulating entertainment, and educational tools, we aim to give kids of all backgrounds an enthusiasm for what they read and learn and an excitement for the possibilities of their futures.</mutableString>
+                                <string key="text">booksmart is an Apple device iOS app that aims to provide creative, educational platforsm to those who may not be able to afford costly resources. Our mission at booksmart is to share these resources with young learners in order to make imaginative education more widely accessible. We hope to foster creativity, passion, and a love of learning in the leaders of the future and we believe no young person should be restricted from these opportunities as a result of their socio-economic background. By sharing stories, stimulating entertainment, and educational tools, we aim to give kids of all backgrounds an enthusiasm for what they read and learn and an excitement for the possibilities of their futures.</string>
                                 <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="21"/>
                                 <color key="textColor" red="0.79053111279999999" green="0.5706224889" blue="0.44942963130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -2607,8 +2851,7 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cPK-yv-UFa"/>
-        <segue reference="jAu-2D-Tp3"/>
+        <segue reference="Aoz-BR-JPF"/>
         <segue reference="4l1-iv-IVF"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -2655,9 +2898,6 @@ If a booksmart learner or a parent, guardian, or teacher would like to reach out
         <image name="Screen Shot 2021-07-21 at 12.28.14 PM" width="530" height="164"/>
         <image name="asl_chestersway" width="2028" height="2560"/>
         <image name="asl_secretdiarywolf" width="792" height="1000"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
